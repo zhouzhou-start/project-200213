@@ -7,6 +7,7 @@ public class JetisTest {
         Jedis jedis = new Jedis("hadoop105", 6379);
         String ping = jedis.ping();
         System.out.println(ping);
+        System.out.println("you are good");
         jedis.close();
     }
 }
